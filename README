@@ -1,0 +1,8 @@
+You need to add a .htaccess file if using apache to the browse folder with
+
+RewriteEngine On
+RewriteBase /browse/
+RewriteRule ^(.+)/([0-9]+)/?$ index.php?object=$1&fosm_id=$2
+
+
+
