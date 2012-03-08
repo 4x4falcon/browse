@@ -411,30 +411,17 @@ if ($object_type == 'changeset')
       </div>
 
 <!--
-      <span class="loading" id="loading">Loading...</span>
-
-      <a href="/?box=yes" class="geolink bbox" id="area_larger_map">View area on larger map</a>
-      <br />
-      <a href="/edit" class="geolink bbox" id="area_edit">Edit area</a>
-
-      <br />
-      <a href="/" class="geolink object" id="object_larger_map"></a>
-      <br />
-      <a href="/edit" class="geolink object" id="object_edit"></a>
-
      <div id="area_edit_menu" class="menu">
       <ul>
-        <li><a href="/edit?editor=potlatch" class="geolink bbox" id="potlatch_area_edit">Edit with Potlatch 1 (in-browser editor)</a></li>
-        <li><a href="/edit?editor=potlatch2" class="geolink bbox" id="potlatch2_area_edit">Edit with Potlatch 2 (in-browser editor)</a></li>
-        <li><a href="/edit?editor=remote" class="geolink bbox" id="remote_area_edit">Edit with Remote Control (JOSM or Merkaartor)</a></li>
+        <li><a href="/edit?editor=potlatch2" class="edit_bbox" id="potlatch2_area_edit">Edit with Potlatch 2 (in-browser editor)</a></li>
+        <li><a href="/edit?editor=remote" class="edit_bbox" id="remote_area_edit">Edit with Remote Control (JOSM or Merkaartor)</a></li>
       </ul>
      </div>
 
      <div id="object_edit_menu" class="menu">
       <ul>
-        <li><a href="/edit?editor=potlatch" class="geolink object" id="potlatch_object_edit">Edit with Potlatch 1 (in-browser editor)</a></li>
-        <li><a href="/edit?editor=potlatch2" class="geolink object" id="potlatch2_object_edit">Edit with Potlatch 2 (in-browser editor)</a></li>
-        <li><a href="/edit?editor=remote" class="geolink object" id="remote_object_edit">Edit with Remote Control (JOSM or Merkaartor)</a></li>
+        <li><a href="/edit?editor=potlatch2" class="edit_object" id="potlatch2_object_edit">Edit with Potlatch 2 (in-browser editor)</a></li>
+        <li><a href="/edit?editor=remote" class="edit_object" id="remote_object_edit">Edit with Remote Control (JOSM or Merkaartor)</a></li>
       </ul>
      </div>
 -->
@@ -444,3 +431,4 @@ if ($object_type == 'changeset')
    </div>
   </body>
 </html>
+
