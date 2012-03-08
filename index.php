@@ -79,11 +79,11 @@ echo '</title>';
 ?>
 
     <link href="/browse/style.css" type="text/css" rel="stylesheet" />
-<!--
     <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+<!--
+    <script src="/openlayers/OpenLayers.js"></script>
 -->
     <script src="/jsf/menu.js"></script>
-    <script src="/openlayers/OpenLayers.js"></script>
     <script src="/browse/jsf/fosm_org.js"></script>
 
 <!-- This is where all variables are passed from php to javascript -->
